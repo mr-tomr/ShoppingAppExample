@@ -1,4 +1,4 @@
-# Grocery Store Aisle Map & Shopping List Reorder Instructions (with Side of Aisle)
+# Grocery Store Aisle Map & Shopping List Reorder Instructions (with Side of Aisle, Updated Pasta Placement)
 
 This file gives ChatGPT both the **store map** and the **rules** it should always follow when reordering a shopping list.  
 
@@ -29,9 +29,9 @@ When a user pastes in a shopping list:
 - **West side**: Bottled juice, Kool-Aid, Tortillas  
 - **East side**: Salad dressing, Vinegar, Ketchup/Mustard  
 
-**Aisle 3** (south photo)  
-- **West side**: Soup, Pasta, Rice  
-- **East side**: Canned meat, Hispanic foods  
+**Aisle 3** (south photo) — *updated placement*  
+- **West side**: Soup, Rice  
+- **East side**: Pasta, Canned meat, Hispanic foods  
 
 **Aisle 4** (south photo)  
 - **West side**: Oil/Shortening, Flour/Sugar  
