@@ -1,73 +1,85 @@
-# Grocery Store Aisle Map & Shopping List Reorder Instructions
+# Grocery Store Aisle Map & Shopping List Reorder Instructions (with Side of Aisle)
 
 This file gives ChatGPT both the **store map** and the **rules** it should always follow when reordering a shopping list.  
 
-When a user pastes in a shopping list, **reorder the items by walking order through the store, starting at Aisle 1 on the west and moving east**.  
+When a user pastes in a shopping list:  
+- **Reorder the items** by walking order (Aisle 1 west → Aisle 15 east, plus walls & departments).  
+- **Indicate side of aisle** (west/east) for each item, using the aisle sign photos.  
 
 ---
 
-## Store Layout Overview
+## Side-of-Aisle Rules
 
-- **Orientation**: Aisles ascend **west → east** (1 through 15).  
-- **Signs**: Photos taken from the **south end**.  
-- **Departments & Walls**:
-  - **Fresh Vegetables**: West wall, south of Aisle 1.  
-  - **Fresh Fruit**: Front of store, in front of Aisles 1–2.  
-  - **Packaged Fruit**: Southwest wall beneath produce.  
-  - **Meat**: Back wall (Aisles 1–3).  
-  - **Frozen Entrées & Nuggets**: Just east of meat (near Aisles 5–6 frozen).  
-  - **Pharmacy**: Back wall, north side, behind Aisles 13–15.  
-  - **Deli & Specialty Cheeses + Bakery**: Aisle 15, north side.  
-  - **Dairy**: West side of Aisle 1.  
+- **Aisle 1**: photo taken from **north end**  
+  - Left of sign → **East side**  
+  - Right of sign → **West side**  
+- **All other aisles (2–15)**: photos taken from **south end**  
+  - Left of sign → **West side**  
+  - Right of sign → **East side**  
 
 ---
 
-## Aisle Map
+## Aisle Map (with Side)
 
-**Aisle 1**  
-- Cheese, Dairy, Lunch meat, Breakfast meats, Yogurt/Pudding, Juice/Punch  
+**Aisle 1** (north photo)  
+- **East side**: Dairy, Milk, Yogurt, Pudding, Cheese  
+- **West side**: Lunch meat, Breakfast meats, Juice/Punch  
 
-**Aisle 2**  
-- Bottled juice, Kool-Aid, Tortillas, Salad dressing, Vinegar, Ketchup/Mustard  
+**Aisle 2** (south photo)  
+- **West side**: Bottled juice, Kool-Aid, Tortillas  
+- **East side**: Salad dressing, Vinegar, Ketchup/Mustard  
 
-**Aisle 3**  
-- Soup, Pasta, Rice, Canned meat, Hispanic foods  
+**Aisle 3** (south photo)  
+- **West side**: Soup, Pasta, Rice  
+- **East side**: Canned meat, Hispanic foods  
 
-**Aisle 4**  
-- Oil/Shortening, Flour/Sugar, Cake mixes, Baking needs, Gelatin  
+**Aisle 4** (south photo)  
+- **West side**: Oil/Shortening, Flour/Sugar  
+- **East side**: Gelatin, Cake mixes, Baking needs  
 
-**Aisle 5**  
-- Canned fruit, Canned vegetables, Canned beans, Frozen entrées, Frozen vegetables, Frozen pizza  
+**Aisle 5** (south photo)  
+- **West side**: Canned fruit, Canned vegetables, Canned beans  
+- **East side**: Frozen entrées, Frozen vegetables, Frozen pizza  
 
-**Aisle 6**  
-- Frozen breakfast, Frozen desserts, Ice cream, Crackers, Cookies  
+**Aisle 6** (south photo)  
+- **West side**: Frozen breakfast, Frozen desserts, Ice cream  
+- **East side**: Crackers, Cookies  
 
-**Aisle 7**  
-- Salty snacks, Chips, Popcorn, Pretzels  
+**Aisle 7** (south photo)  
+- **West side**: Salty snacks, Chips  
+- **East side**: Popcorn, Pretzels  
 
-**Aisle 8**  
-- Specialty mixers, Coffee, Soda  
+**Aisle 8** (south photo)  
+- **West side**: Specialty mixers, Coffee  
+- **East side**: Soda  
 
-**Aisle 9**  
-- Boxed cereal, Bag cereal, Pancake/Syrup, Nutrition/Diabetic, Hot cereal, Instant breakfast, Protein drinks/shakes/powders  
+**Aisle 9** (south photo)  
+- **West side**: Boxed cereal, Bag cereal, Pancake/Syrup  
+- **East side**: Nutrition/Diabetic, Hot cereal, Instant breakfast, Protein drinks/shakes/powders  
 
-**Aisle 10**  
-- Paper towels, Bath tissue, Facial tissue, Foil/Bags/Wrap, Picnic, Charcoal  
+**Aisle 10** (south photo)  
+- **West side**: Paper towels, Bath tissue, Facial tissue  
+- **East side**: Foil/Bags/Wrap, Picnic, Charcoal  
 
-**Aisle 11**  
-- Dog snacks, Dry dog food, Canned dog food, Pet supplies, Cat food, Cat litter  
+**Aisle 11** (south photo)  
+- **West side**: Dog snacks, Dry dog food, Canned dog food  
+- **East side**: Pet supplies, Cat food, Cat litter  
 
-**Aisle 12**  
-- Household cleaners, Waxes/Polish, Air fresheners, Liquid dish soap, Laundry detergent, Bleach/Fabric care  
+**Aisle 12** (south photo)  
+- **West side**: Household cleaners, Waxes/Polish, Air fresheners  
+- **East side**: Liquid dish soap, Laundry detergent, Bleach/Fabric care  
 
-**Aisle 13**  
-- Bottled water, Candy, Sports drinks, Snacks  
+**Aisle 13** (south photo)  
+- **West side**: Bottled water, Candy  
+- **East side**: Sports drinks, Snacks  
 
-**Aisle 14**  
-- Bread, Peanut butter/Jelly  
+**Aisle 14** (south photo)  
+- **West side**: Bread  
+- **East side**: Peanut butter/Jelly  
 
-**Aisle 15**  
-- Bakery, Deli, Specialty Cheeses  
+**Aisle 15** (south photo)  
+- **West side**: Bakery  
+- **East side**: Deli, Specialty Cheeses  
 
 ---
 
@@ -75,12 +87,11 @@ When a user pastes in a shopping list, **reorder the items by walking order thro
 
 When given a shopping list:  
 
-1. **Match** each item to its aisle or department.  
-2. **Reorder** the list starting with Aisle 1, moving east through Aisle 15.  
-3. **Include wall & department sections** in correct walking order:  
-   - Fresh Vegetables → Fresh Fruit → Packaged Fruit → Meat → Frozen (east of Meat) → Aisles 1–15 → Pharmacy → Deli & Specialty Cheeses / Bakery.  
-4. **Group items by aisle/section** with a clear heading.  
-5. **If item cannot be mapped**, list it under **Unmapped Items** at the end.  
+1. **Match** each item to its aisle/department and side.  
+2. **Reorder** by walking order: Fresh Vegetables → Fresh Fruit → Packaged Fruit → Meat → Frozen (east of Meat) → Aisles 1–15 → Pharmacy → Deli & Bakery.  
+3. **Show each aisle heading** with items underneath.  
+4. For aisle items, **append (west side) or (east side)**.  
+5. **If item cannot be mapped**, place it under **Unmapped Items**.  
 
 ---
 
