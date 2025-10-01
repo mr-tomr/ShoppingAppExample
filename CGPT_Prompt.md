@@ -33,6 +33,9 @@ When a user pastes in a shopping list, **reorder the items by walking order thro
 **Aisle 3**  
 - Soup, Pasta, Rice, Canned meat, Hispanic foods  
 
+**Aisle 4**  
+- Oil/Shortening, Flour/Sugar, Cake mixes, Baking needs, Gelatin  
+
 **Aisle 5**  
 - Canned fruit, Canned vegetables, Canned beans, Frozen entrées, Frozen vegetables, Frozen pizza  
 
@@ -46,7 +49,7 @@ When a user pastes in a shopping list, **reorder the items by walking order thro
 - Specialty mixers, Coffee, Soda  
 
 **Aisle 9**  
-- Boxed cereal, Bag cereal, Pancake/Syrup, Nutrition/Diabetic, Hot cereal, Instant breakfast  
+- Boxed cereal, Bag cereal, Pancake/Syrup, Nutrition/Diabetic, Hot cereal, Instant breakfast, Protein drinks/shakes/powders  
 
 **Aisle 10**  
 - Paper towels, Bath tissue, Facial tissue, Foil/Bags/Wrap, Picnic, Charcoal  
